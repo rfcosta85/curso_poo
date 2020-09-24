@@ -40,6 +40,7 @@ public class ContaBanco
     {
 
         tipo = tipoDaConta;
+        // this.setStatus(true); Realizar dessa forma na próxima vez
 
     }
 
@@ -154,7 +155,7 @@ public class ContaBanco
         if(getStatus())
         {
 
-            if(getSaldo() > reais)
+            if(getSaldo() >= reais)
             {
                 
                 setSaldo(getSaldo() - reais);
