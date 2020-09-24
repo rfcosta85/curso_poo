@@ -10,6 +10,8 @@ public class ContaBanco
     private float saldo;
     private boolean status;
 
+    // Métodos Especiais
+
     Scanner ler = new Scanner(System.in);
 
     public void Construtor()
@@ -215,7 +217,7 @@ public class ContaBanco
                 {
 
                     setSaldo(getSaldo() - mensalidade);
-                    
+
                 }else
                 {
                    
